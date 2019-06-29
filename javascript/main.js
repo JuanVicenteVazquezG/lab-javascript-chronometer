@@ -50,11 +50,14 @@ function setResetBtn() {
 }
 
 // Start/Stop Button
-btnLeft.addEventListener('click', function () {
+// btnLeft.addEventListener('click', function () {
 
-});
+// });
 
 // Reset/Split Button
-btnRight.addEventListener('click', function () {
+// btnRight.addEventListener('click', function () {
 
-});
+// });
+
+chronometer.startClick();
+console.log (chronometer.setTime.bind());
